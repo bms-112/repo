@@ -13,24 +13,6 @@ Description: Tiny test package to check that the repo works
 Author: bms-112
 Name: My Repo Test Package
 
-Package: com.hackyouriphone.localiapstore
-Version: 1.4-4
-Architecture: iphoneos-arm
-Maintainer: HackYouriPhone <repo@hackyouriphone.org>
-Depends: firmware (>= 6.0), firmware (<= 12.5.7), mobilesubstrate, preferenceloader
-Filename: debs/com.hackyouriphone.localiapstore_1.4-4_iphoneos-arm.deb
-Size: 70872
-MD5sum: 037efc8dae5755b907791008058b1951
-SHA1: f22b3a920064eab740985e910f185821f04bd087
-SHA256: 5e1443f4d1bc94fa2bc7ac6a775d5f2880459d065f9add3ef457571bbcba4e1c
-Section: HYI - Tweaks
-Homepage: http://repo.hackyouriphone.org/depiction/depiction.php?filename=localiapstore
-Description: Pwns In-App purchases on iOS 5.1.1 - 7.1.X. Compatible with ARMv8 (64 Bit). Enable in settings. PRESS 'DISMISS' ON POPUP!
-Author: anondev <repo@hackyouriphone.org>
-Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=localiapstore
-Name: LocalIAPStore
-Sileodepiction: https://depiction.hackyouriphone.org/sileoDepiction.php?filename=localiapstore
-
 Package: com.r333d.cylinder
 Version: 1.0.4-5
 Architecture: iphoneos-arm
