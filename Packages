@@ -1,3 +1,17 @@
+Package: com.alexzielenski.zeppelin
+Version: 2.1.1-2
+Architecture: iphoneos-arm
+Maintainer: Alex Zielenski <support@alexzielenski.com>
+Filename: debs/com.alexzielenski.zeppelin_2.1.1-2_iphoneos-arm.deb
+Size: 961662
+MD5sum: 9889981eae3f784528587986d94fdbc9
+SHA1: 76890f1f2ee74e63e3be52d1d355b02a84771b22
+SHA256: 93d53acd82ed1c49414a09b867e93174dbfab26d033f4f4887a66f689afd7201
+Section: Tweaks
+Description: Replaces carrier text with an image !
+Author: Alex Zielenski <support@alexzielenski.com>
+Name: Zeppelin
+
 Package: com.hackyouriphone.localiapstore
 Version: 1.4-5
 Architecture: iphoneos-arm
@@ -33,4 +47,28 @@ Author: Reed Weichler (rweichler) <rweichler+cydia@gmail.com>
 Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=cylinderDp
 Icon: file:///Library/PreferenceBundles/CylinderSettings.bundle/Icon@2x.png
 Name: Cylinder
+
+Package: ws.hbang.newterm2
+Version: 2.0~beta1-1
+Architecture: iphoneos-arm
+Maintainer: HASHBANG Productions <support@hbang.ws>
+Installed-Size: 1732
+Depends: firmware (>= 6.0), bash, coreutils, ncurses, system-cmds, com.linusyang.localeutf8, ws.hbang.common (>= 1.11.1)
+Conflicts: ws.hbang.newterm
+Replaces: ws.hbang.newterm
+Filename: debs/ws.hbang.newterm2_2.0~beta1-1_iphoneos-arm.deb
+Size: 840056
+MD5sum: cbbdbe9c8a10bfd523e0568e451a7788
+SHA1: bda77e06a3883549a2e3167f3478b0ffac12222e
+SHA256: 8d8fb127c95e872cee3c89996d9d1ef572c9f625e472c6d56097d13c57883e94
+Section: Terminal Support
+Description: A powerful terminal emulator for iOS
+Tag: compatible::ios6, compatible::ios7, compatible::ios8, compatible::ios9, compatible::ios10, compatible::ios11
+Author: HASHBANG Productions <support@hbang.ws>
+Depiction: https://cydia.hbang.ws/package/ws.hbang.newterm2/
+Dev: hbang
+Icon: file:///Applications/NewTerm.app/Icon-Small@2x.png
+Name: NewTerm 2
+Sponsor: thebigboss.org <http://thebigboss.org>
+Support: https://hbang.ws/support/
 
