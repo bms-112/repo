@@ -17,8 +17,8 @@ jobs:
           bzip2 -kf Packages
           gzip -kf Packages
           cat > Release <<'EOF'
-          Origin: My Repo
-          Label: My Repo
+          Origin: Bannen's Repo
+          Label: Bannen's Repo
           Suite: stable
           Version: 1.0
           Codename: ios
