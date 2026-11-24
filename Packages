@@ -31,21 +31,3 @@ Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=local
 Name: LocalIAPStore
 Sileodepiction: https://depiction.hackyouriphone.org/sileoDepiction.php?filename=localiapstore
 
-Package: com.r333d.cylinder
-Version: 1.1
-Architecture: iphoneos-arm
-Maintainer: Reed Weichler <rweichler+cydia@gmail.com>
-Depends: firmware (>= 3.0), mobilesubstrate (>= 0.9.6011), preferenceloader
-Filename: debs/cylinder.deb
-Size: 504158
-MD5sum: 5ee38e435b03e82d6347c9354e5376c8
-SHA1: 2eea1596dbb08e679c040ffc79542b736978608b
-SHA256: ccbf27d6b711353fe65f6af6aa0b6c5ffc5901b9af59d39a15fbf6eb73e4b281
-Section: Tweaks
-Homepage: http://github.com/rweichler/cylinder
-Description: Make your icons dance
-Author: Reed Weichler (rweichler) <rweichler+cydia@gmail.com>
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=cylinderDp
-Icon: file:///Library/PreferenceBundles/CylinderSettings.bundle/Icon@2x.png
-Name: Cylinder
-
