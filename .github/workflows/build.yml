@@ -1,0 +1,36 @@
+name: Build repo index
+on:
+  push:
+    paths: ['debs/**']
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build index
+        run: |
+          sudo apt-get update && sudo apt-get install -y dpkg-dev
+          dpkg-scanpackages -m debs > Packages
+          bzip2 -kf Packages
+          gzip -kf Packages
+          cat > Release <<'EOF'
+          Origin: My Repo
+          Label: My Repo
+          Suite: stable
+          Version: 1.0
+          Codename: ios
+          Architectures: iphoneos-arm
+          Components: main
+          Description: My personal repo
+          EOF
+          touch .nojekyll
+      - name: Commit
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add -A
+          git commit -m "Update index" || exit 0
+          git push
