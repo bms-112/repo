@@ -24,7 +24,7 @@ jobs:
           Codename: ios
           Architectures: iphoneos-arm
           Components: main
-          Description: My personal repo
+          Description: Bannen's repo
           EOF
           touch .nojekyll
       - name: Commit
