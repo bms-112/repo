@@ -1,28 +1,31 @@
-Package: com.bms112.testpackage
-Version: 1.0
+Package: com.hackyouriphone.localiapstore
+Version: 1.4-5
 Architecture: iphoneos-arm
-Maintainer: bms-112
-Depends: firmware (>= 3.0)
-Filename: debs/com.bms112.testpackage_1.0_iphoneos-arm.deb
-Size: 688
-MD5sum: b82f951541bdee48f04e026cb0d57aa4
-SHA1: b678f028d65431e4ddb92afe7b5b195fbfaf901c
-SHA256: 67d3506e81182ec52f22622b0bb958e4674da4d8e096aba6b767ea91fd73d8f4
-Section: Tweaks
-Description: Tiny test package to check that the repo works
-Author: bms-112
-Name: My Repo Test Package
+Maintainer: HackYouriPhone <repo@hackyouriphone.org>
+Depends: firmware (>= 6.0), firmware (<= 12.5.7), mobilesubstrate, preferenceloader
+Filename: debs/com.hackyouriphone.localiapstore_1.4-5_iphoneos-arm.deb
+Size: 70830
+MD5sum: 265569b0a78e699d643c8b625c11c52d
+SHA1: 81b4dd2890eb26ca4069aea6e3599b6ca4a7541e
+SHA256: 8cd2e43ea018ba06f4309f2509ad4cba2d8be9da859e181f81f4cfb479eae2b6
+Section: HYI - Tweaks
+Homepage: http://repo.hackyouriphone.org/depiction/depiction.php?filename=localiapstore
+Description: Pwns In-App purchases on iOS 5.1.1 - 7.1.X. Compatible with ARMv8 (64 Bit). Enable in settings. PRESS 'DISMISS' ON POPUP!
+Author: anondev <repo@hackyouriphone.org>
+Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=localiapstore
+Name: LocalIAPStore
+Sileodepiction: https://depiction.hackyouriphone.org/sileoDepiction.php?filename=localiapstore
 
 Package: com.r333d.cylinder
-Version: 1.1
+Version: 1.1-1
 Architecture: iphoneos-arm
 Maintainer: Reed Weichler <rweichler+cydia@gmail.com>
 Depends: firmware (>= 3.0), mobilesubstrate (>= 0.9.6011), preferenceloader
-Filename: debs/cylinder (2).deb
-Size: 504158
-MD5sum: 5ee38e435b03e82d6347c9354e5376c8
-SHA1: 2eea1596dbb08e679c040ffc79542b736978608b
-SHA256: ccbf27d6b711353fe65f6af6aa0b6c5ffc5901b9af59d39a15fbf6eb73e4b281
+Filename: debs/com.r333d.cylinder_1.1-1_iphoneos-arm.deb
+Size: 504172
+MD5sum: 8917041f2d5ae307767d58db4aa84904
+SHA1: a43056283032d30f6c1d5fef5445ed60a0a0c3fc
+SHA256: a46293b8a25d7f317a93b6d2e7c5bd73894d3a572af2becafe6fd6da8851d313
 Section: Tweaks
 Homepage: http://github.com/rweichler/cylinder
 Description: Make your icons dance
