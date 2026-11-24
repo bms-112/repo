@@ -1,3 +1,18 @@
+Package: com.bms112.testpackage
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: bms-112
+Depends: firmware (>= 3.0)
+Filename: debs/com.bms112.testpackage_1.0_iphoneos-arm.deb
+Size: 688
+MD5sum: b82f951541bdee48f04e026cb0d57aa4
+SHA1: b678f028d65431e4ddb92afe7b5b195fbfaf901c
+SHA256: 67d3506e81182ec52f22622b0bb958e4674da4d8e096aba6b767ea91fd73d8f4
+Section: Tweaks
+Description: Tiny test package to check that the repo works
+Author: bms-112
+Name: My Repo Test Package
+
 Package: com.hackyouriphone.localiapstore
 Version: 1.4-4
 Architecture: iphoneos-arm
