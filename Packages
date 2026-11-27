@@ -71,6 +71,30 @@ Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=cylinderDp
 Icon: file:///Library/PreferenceBundles/CylinderSettings.bundle/Icon@2x.png
 Name: Cylinder
 
+Package: cydia
+Version: 1.1.36-1
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 6816
+Pre-Depends: debianutils, dpkg (>= 1.16.1), firmware (>=12.0)
+Depends: bzip2, darwintools, debianutils, dpkg (>= 1.19.1), gzip, sed, shell-cmds, system-cmds, uikittools (>= 1.1.14), xz-utils, zstd
+Conflicts: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, cydia-lproj, ispazio.net, modmyifone, ste, yellowsn0w.com, zodttd
+Replaces: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, cydia-lproj, ispazio.net, modmyifone, saurik, ste, yellowsn0w.com, zodttd
+Provides: bigbossbetarepo, cydia-sources, cydia-lproj
+Filename: debs/cydia_1.1.36-1_iphoneos-arm.deb
+Size: 1048576
+MD5sum: 85c875a0e0dba8a7a01b7032b587e97a
+SHA1: 771e74a0415259d37ab880d2e98ffb5954cdce84
+SHA256: 3158f9e34359b6cd1a39bee58c184cee4e4024381d2d2e7296edded12a3fbb2f
+Section: Packaging
+Priority: important
+Description: graphical iPhone front-end for APT
+Tag: purpose::uikit, role::enduser
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Depiction: http://cydia.saurik.com/info/cydia/
+Icon: file:///Applications/Cydia.app/Icon-60.png
+Name: Cydia Installer
+
 Package: eu.heinelt.ifile
 Version: 1.9.1-1
 Architecture: iphoneos-arm
